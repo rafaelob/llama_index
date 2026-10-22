@@ -1816,7 +1816,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "litellm", specifier = ">=1.18.13,<2" },
+    { name = "litellm", specifier = ">=1.18.13,<2,!=1.107.0" },
     { name = "llama-index-core", specifier = ">=0.12.40,<0.13" },
 ]
 
