@@ -36,7 +36,7 @@ readme = "README.md"
 dependencies = [
     "llama-index-core>=0.10.0,<0.13",
     "notdiamond>=0.3.5,<0.4",
-    "litellm",
+    "litellm!=1.107.0",
 ]
 
 [tool.codespell]
